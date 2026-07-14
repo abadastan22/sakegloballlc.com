@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -30,14 +30,21 @@
     <section class="page-hero">
       <div class="container">
         <p class="eyebrow">Services</p>
-        <h1>Integrated support for facilities, procurement, mineral supply, logistics, and operations.</h1>
+        <h1>Integrated support for DevOps, app development, facilities, procurement, logistics, and operations.</h1>
       </div>
     </section>
 
     <section class="section">
       <div class="container service-browser">
         <div class="service-list" aria-label="SAKE Global services">
-          <button class="service-card active" type="button" data-service-card data-contact="Facility Support / Janitorial" data-title="Facility Support & Janitorial" data-image="../assets/img/services/facility-support.jpg" data-summary="Cleaning, sanitation, floor care coordination, supplies management, restroom servicing, trash removal, and quality inspections." data-outcomes="Janitorial and cleaning scope planning|Supply coordination and site readiness|Inspection routines and corrective action tracking">
+          <button class="service-card active" type="button" data-service-card data-contact="DevOps / App Development" data-title="DevOps / App Development" data-image="../assets/img/services/project-management.jpg" data-summary="Cloud infrastructure, deployment automation, application development, monitoring, and ongoing technical support for reliable digital products." data-outcomes="Custom web and mobile application development|CI/CD pipelines and deployment automation|Cloud infrastructure, monitoring, and operational support">
+            <img src="../assets/img/services/project-management.jpg" alt="Software development team planning an application deployment">
+            <span class="icon">DA</span>
+            <strong>DevOps / App Development</strong>
+            <span>Scalable applications and dependable delivery pipelines.</span>
+          </button>
+
+          <button class="service-card" type="button" data-service-card data-contact="Facility Support / Janitorial" data-title="Facility Support & Janitorial" data-image="../assets/img/services/facility-support.jpg" data-summary="Cleaning, sanitation, floor care coordination, supplies management, restroom servicing, trash removal, and quality inspections." data-outcomes="Janitorial and cleaning scope planning|Supply coordination and site readiness|Inspection routines and corrective action tracking">
             <img src="../assets/img/services/facility-support.jpg" alt="Commercial facility cleaning service">
             <span class="icon">FS</span>
             <strong>Facility Support & Janitorial</strong>
@@ -88,17 +95,17 @@
         </div>
 
         <aside class="service-detail" aria-live="polite" aria-label="Selected service details">
-          <img id="serviceDetailImage" src="../assets/img/services/facility-support.jpg" alt="">
+          <img id="serviceDetailImage" src="../assets/img/services/project-management.jpg" alt="Software development team planning an application deployment">
           <p class="eyebrow">Selected service</p>
-          <h2 id="serviceDetailTitle">Facility Support & Janitorial</h2>
-          <p id="serviceDetailSummary">Cleaning, sanitation, floor care coordination, supplies management, restroom servicing, trash removal, and quality inspections.</p>
+          <h2 id="serviceDetailTitle">DevOps / App Development</h2>
+          <p id="serviceDetailSummary">Cloud infrastructure, deployment automation, application development, monitoring, and ongoing technical support for reliable digital products.</p>
           <ul class="check-list dark" id="serviceDetailOutcomes">
             <li>Janitorial and cleaning scope planning</li>
             <li>Supply coordination and site readiness</li>
             <li>Inspection routines and corrective action tracking</li>
           </ul>
           <div class="service-detail-actions">
-            <a class="btn" id="serviceDetailContact" href="contact.html?interest=Facility%20Support%20%2F%20Janitorial">Request This Service</a>
+            <a class="btn" id="serviceDetailContact" href="contact.html?interest=DevOps%20%2F%20App%20Development">Request This Service</a>
             <div class="service-stepper" aria-label="Browse services">
               <button type="button" data-service-prev aria-label="Previous service">&#8592;</button>
               <button type="button" data-service-next aria-label="Next service">&#8594;</button>
@@ -133,10 +140,11 @@
       </div>
       <div><h4>Company</h4><a href="about.html">About</a><a href="capabilities.html">Capabilities</a><a href="contact.html">Contact</a></div>
       <div><h4>Services</h4><a href="services.html">Facility Support</a><a href="services.html">Procurement</a><a href="services.html">Mineral Sales</a><a href="government.html">Government Contracting</a></div>
-      <div><h4>Contact</h4><p>Email: info@sakegloballlc.com</p><p>Florida, USA</p></div>
+      <div><h4>Contact</h4><p>Email: contact@sakegloballlc.com</p><p>Florida, USA</p></div>
     </div>
     <div class="footer-bottom">&copy; <span id="year"></span> SAKE Global LLC. All rights reserved.</div>
   </footer>
   <script src="../assets/js/main.js"></script>
 </body>
 </html>
+

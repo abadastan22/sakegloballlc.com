@@ -1,4 +1,4 @@
-# SAKE Global LLC Website
+﻿# SAKE Global LLC Website
 
 Static website for `sakegloballlc.com`.
 
@@ -21,6 +21,7 @@ Upload the full folder contents to your hosting root/public directory. For GitHu
 
 ## Replace before going live
 
-- Replace `info@sakegloballlc.com` if needed.
+- Replace `contact@sakegloballlc.com` if needed.
 - Add verified UEI, CAGE, certifications, insurance details, and past performance.
-- Replace the mailto contact form with a real backend/form handler for production.
+- Submit the contact form once after deployment and confirm the activation email sent to `contact@sakegloballlc.com`.
+
